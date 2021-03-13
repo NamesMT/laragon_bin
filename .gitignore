@@ -26,9 +26,6 @@ bin/cmder/vendor/*
 bin/cmder/vendor/conemu-maximus5/*
 !bin/cmder/vendor/conemu-maximus5/ConEmu.xml
 bin/cmder/config/.history
-!bin/laragon/
-bin/laragon/*/
-bin/laragon/unin*
 !bin/nodejs/
 !bin/php/
 !bin/ter

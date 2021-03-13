@@ -16,5 +16,5 @@ updated (as of 13/03/2021 [d/m/y]):
 * php to latest 7.4
 * ~~git to latest 2.30.1.windows.1~~ git is tooooo large, update it yourself.
 
->Note to self: add mingw64 for C&C++ & modify laragon path you dumbass
-bin/laragon
+>~~Note to self: add mingw64 for C&C++ & modify laragon path you dumbass~~
+~~bin/laragon/~~ laragon.cmd welp, didn't work as intended, usr/user.cmd also doesn't work for adding custom PATH, I'm done!
