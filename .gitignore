@@ -1,0 +1,36 @@
+# Thanks https://stackoverflow.com/a/29932318
+# Blacklist files/folders in same directory as the .gitignore file
+/*
+
+# Whitelist some files
+!.gitignore
+!README.md
+
+# global ignore
+**/.DS_Store
+**.log
+**tmp/
+
+# trailing "/" is optional for folders, may match file though.
+# "/" is NOT optional when followed by a *
+!usr/
+!bin/
+bin/*
+!bin/composer/
+bin/composer/cache/
+!bin/cmder/
+bin/cmder/*
+!bin/cmder/vendor/
+bin/cmder/vendor/*
+!bin/cmder/vendor/conemu-maximus5/
+bin/cmder/vendor/conemu-maximus5/*
+!bin/cmder/vendor/conemu-maximus5/ConEmu.xml
+bin/cmder/config/.history
+!bin/laragon/
+bin/laragon/*/
+bin/laragon/unin*
+!bin/nodejs/
+!bin/php/
+!bin/ter
+!bin/notepad++
+!etc/

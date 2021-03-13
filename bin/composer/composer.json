@@ -1,0 +1,10 @@
+{
+    "require": {
+        "laravel/installer": "^4.2"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4.16"
+        }
+    }
+}
