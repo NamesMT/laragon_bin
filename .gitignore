@@ -34,3 +34,4 @@ bin/cmder/config/.history
 !www/
 www/*
 !www/index.php
+!www/resources/

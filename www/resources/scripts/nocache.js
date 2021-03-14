@@ -1,0 +1,1 @@
+for(var t=document.getElementsByClassName("NO-CACHE"),i=0;i<t.length;i++)t[i].attributes.src.value+="?a="+Math.random();
