@@ -31,3 +31,6 @@ bin/cmder/config/.history
 !bin/ter
 !bin/notepad++
 !etc/
+!www/
+www/*
+!www/index.php

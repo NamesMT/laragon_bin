@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <NotepadPlus>
     <Session activeView="0">
-        <mainView activeIndex="0" />
+        <mainView activeIndex="1">
+            <File firstVisibleLine="2" xOffset="0" scrollWidth="480" startPos="686" endPos="686" selMode="0" offset="0" wrapCount="1" lang="JavaScript" encoding="-1" userReadOnly="no" filename="D:\learn\node-express-course\server.js" backupFilePath="" originalFileLastModifTimestamp="-1275744512" originalFileLastModifTimestampHigh="30873788" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="0" mapWrapIndentMode="-1" mapIsWrap="no" />
+            <File firstVisibleLine="115" xOffset="0" scrollWidth="1040" startPos="2906" endPos="2906" selMode="0" offset="0" wrapCount="1" lang="PHP" encoding="-1" userReadOnly="no" filename="D:\laragon\www\index.php" backupFilePath="" originalFileLastModifTimestamp="741852763" originalFileLastModifTimestampHigh="30873846" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="3317096" mapWrapIndentMode="-1" mapIsWrap="no" />
+        </mainView>
         <subView activeIndex="0" />
     </Session>
 </NotepadPlus>
