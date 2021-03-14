@@ -43,7 +43,9 @@ if (!empty($_GET['q'])) {
 		</p>
 	</main>
 	<?php
-	$check = parse_ini_file("../usr/laragon.ini", false, INI_SCANNER_RAW)['AutoVirtualHosts'];
+	$ini = parse_ini_file("../usr/laragon.ini", false, INI_SCANNER_RAW);
+	$check = $ini['AutoVirtualHosts'];
+	$ext = isset($ini['HostnameFormat']) ? substr($ini['HostnameFormat'], strrpos($ini['HostnameFormat'], '.')) : '.test';
 	$dirList = glob('*', GLOB_ONLYDIR | GLOB_NOSORT);
 
 	if ($dirList != NULL && !(count($dirList) == 1 && $dirList[0] == 'resources')) :
@@ -57,7 +59,7 @@ if (!empty($_GET['q'])) {
 						$text = 'www/Resources';
 					else :
 						if ($check == '-1') :
-							$link = 'http://' . $value . '.test';
+							$link = 'http://' . $value . $ext;
 						else :
 							$link = 'http://localhost/' . $value;
 						endif;

@@ -15,6 +15,10 @@ updated (as of 13/03/2021 [d/m/y]):
     \>>>Default nodejs of laravel isn't compatible with Tailwind v2 and the npm that shipped with current latest nodejs LTS gives error when running npm install && npm run dev after install Breeze, also npm self update gives errors too, pain in the @ss to figure out, jezz...
 * php to latest 7.4
 * ~~git to latest 2.30.1.windows.1~~ git is tooooo large, update it yourself.
+* Improved www/index with project listing & internet status checker
+    + A light-weight favicon, downloaded Photoshop just for it lmao
+    + Project listing automatically adapts to Auto Virtual Hosts config
+
 
 >~~Note to self: add mingw64 for C&C++ & modify laragon path you dumbass~~
 ~~bin/laragon/~~ laragon.cmd welp, didn't work as intended, usr/user.cmd also doesn't work for adding custom PATH, I'm done!
