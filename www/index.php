@@ -18,7 +18,102 @@ if (!empty($_GET['q'])) {
 	<link href="./resources/fonts/karla.css" rel="stylesheet" type="text/css">
 	<link rel="shortcut icon" href="./resources/laricon.png" type="image/png">
 	<style>
-	*,:after *,:before *{box-sizing:border-box}body{margin:0;min-height:100vh;font:100 18px Karla}aside,header,main,nav{padding:1rem;margin:auto;max-width:1200px;text-align:center}header{display:flex;flex-wrap:wrap;justify-content:center;align-items:center}.header__item{margin:0;padding:1rem}.header--logo{height:8rem}h1{font-size:5rem}main{background-color:#f5f5f5}nav{width:100%}ul{list-style:none;padding:0;margin:auto}a{color:#37adff;font-weight:900;text-decoration:none}a:hover{color:red;font-weight:900;transition:.3s}main a{color:grey}nav a{display:block;margin:1rem 0}nav a:after{content:'→';margin-left:.5rem}.alert{color:red;font-weight:900}@media (min-width:650px){h1{font-size:10rem}}img{white-space:pre}
+		*,
+		:after *,
+		:before * {
+			box-sizing: border-box
+		}
+
+		body {
+			margin: 0;
+			min-height: 100vh;
+			font: 100 18px Karla
+		}
+
+		aside,
+		header,
+		main,
+		nav {
+			padding: 1rem;
+			margin: auto;
+			max-width: 1200px;
+			text-align: center
+		}
+
+		header {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center
+		}
+
+		.header__item {
+			margin: 0;
+			padding: 1rem
+		}
+
+		.header--logo {
+			height: 8rem
+		}
+
+		h1 {
+			font-size: 5rem
+		}
+
+		main {
+			background-color: #f5f5f5
+		}
+
+		nav {
+			width: 100%
+		}
+
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: auto
+		}
+
+		a {
+			color: #37adff;
+			font-weight: 900;
+			text-decoration: none
+		}
+
+		a:hover {
+			color: red;
+			font-weight: 900;
+			transition: .3s
+		}
+
+		main a {
+			color: grey
+		}
+
+		nav a {
+			display: block;
+			margin: 1rem 0
+		}
+
+		nav a:after {
+			content: '→';
+			margin-left: .5rem
+		}
+
+		.alert {
+			color: red;
+			font-weight: 900
+		}
+
+		@media (min-width:650px) {
+			h1 {
+				font-size: 10rem
+			}
+		}
+
+		img {
+			white-space: pre
+		}
 	</style>
 </head>
 
@@ -81,7 +176,13 @@ if (!empty($_GET['q'])) {
 				Hint: <b>Opens up Laragon</b> -> Rightclick anywhere inside for Laragon <b>Menu -> Quick app</b>
 			</div>
 		</aside>
+		<?php
+		if (count($dirList) == 1) : ?>
+			<nav>
+				<a href="http://localhost/resources" target="_blank">www/Resources</a>
+			</nav>
 	<?php
+		endif;
 	endif;
 	?>
 </body>
