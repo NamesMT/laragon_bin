@@ -35,3 +35,5 @@ bin/cmder/config/.history
 www/*
 !www/index.php
 !www/resources/
+
+bin/nodejs
