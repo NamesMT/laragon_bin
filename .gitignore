@@ -28,7 +28,7 @@ bin/cmder/vendor/conemu-maximus5/*
 bin/cmder/config/.history
 !bin/nodejs/
 !bin/php/
-!bin/ter
+!bin/ter.lnk
 !bin/notepad++
 !etc/
 !www/
