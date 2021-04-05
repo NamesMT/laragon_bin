@@ -1,0 +1,27 @@
+# name: Strips CR and LF chars on paste
+# type: enum
+# options: delete,space,ampersand,crlf
+clink.paste_crlf = space
+
+# name: Skip adding lines prefixed with whitespace
+# type: boolean
+history.ignore_space = False
+
+# name: The number of history lines to save
+# type: integer
+history.max_lines = 10000
+
+# name: Support Windows' Ctrl-Alt substitute for AltGr
+# type: boolean
+terminal.use_altgr_substitute = True
+
+
+
+exec.cwd = 1
+
+exec.dirs = 1
+
+exec.path = 1
+
+exec.space_prefix = 1
+

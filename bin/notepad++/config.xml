@@ -2,16 +2,29 @@
 <NotepadPlus>
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="yes" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" isSearch2ButtonsMode="no" regexBackward4PowerUser="no">
         <Filter name="" />
+        <Find name="cmder" />
+        <Find name="lar" />
+        <Find name="laragon" />
+        <Find name="profile.d" />
+        <Find name=".d" />
+        <Find name="profile" />
+        <Find name="profiles" />
+        <Find name=" on" />
+        <Find name="ssl" />
         <Find name="npm" />
-        <Find name="php" />
-        <Find name="larael" />
-        <Find name="bcmath" />
-        <Find name="hotkey" />
-        <Find name="git" />
         <Replace name="" />
     </FindHistory>
     <History nbMaxFile="10" inSubMenu="no" customLength="-1">
-        <File filename="D:\laragon\bin\notepad++\config.xml" />
+        <File filename="D:\laragon\etc\ssl\auto.openssl.conf" />
+        <File filename="D:\laragon\bin\ngrok\conf\laravel.yml" />
+        <File filename="D:\laragon\etc\nginx\php_upstream.conf" />
+        <File filename="D:\laragon\bin\cmder\init.bat" />
+        <File filename="D:\laragon\bin\cmder\bin\alias.bat" />
+        <File filename="C:\Users\PC\.vscode\extensions\pkief.material-icon-theme-4.6.0\icons\php_elephant.svg" />
+        <File filename="D:\laragon\bin\cmder\vendor\init.bat" />
+        <File filename="D:\laragon\etc\nginx\sites-enabled\00-default.conf" />
+        <File filename="D:\laragon\bin\nginx\nginx-1.16.0\conf\nginx.conf" />
+        <File filename="D:\laragon\etc\nginx\sites-enabled\laravel.test.conf" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
@@ -25,10 +38,10 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
-        <GUIConfig name="AppPosition" x="0" y="0" width="1100" height="700" isMaximized="no" />
-        <GUIConfig name="FindWindowPosition" left="857" top="51" right="1438" bottom="402" />
+        <GUIConfig name="AppPosition" x="509" y="131" width="1100" height="700" isMaximized="no" />
+        <GUIConfig name="FindWindowPosition" left="857" top="51" right="1544" bottom="498" />
         <GUIConfig name="FinderConfig" wrappedLines="no" />
-        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20210322">no</GUIConfig>
+        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20210406">no</GUIConfig>
         <GUIConfig name="Auto-detection">yes</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
         <GUIConfig name="TrayIcon">no</GUIConfig>

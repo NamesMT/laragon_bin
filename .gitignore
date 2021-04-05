@@ -10,6 +10,7 @@
 **/.DS_Store
 **.log
 **tmp/
+**cache
 
 # trailing "/" is optional for folders, may match file though.
 # "/" is NOT optional when followed by a *
@@ -17,20 +18,14 @@
 !bin/
 bin/*
 !bin/composer/
-bin/composer/cache/
 !bin/cmder/
-bin/cmder/*
-!bin/cmder/vendor/
-bin/cmder/vendor/*
-!bin/cmder/vendor/conemu-maximus5/
-bin/cmder/vendor/conemu-maximus5/*
-!bin/cmder/vendor/conemu-maximus5/ConEmu.xml
-bin/cmder/config/.history
+bin/cmder/config/clink_history*
 !bin/nodejs/
 !bin/php/
 !bin/ter.lnk
 !bin/notepad++
-!etc/
+!etc
+etc/apps/phpMyAdmin
 !www/
 www/*
 !www/index.php
