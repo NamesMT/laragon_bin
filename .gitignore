@@ -10,6 +10,7 @@
 **/.DS_Store
 **.log
 **tmp/
+**temp/
 **cache
 
 # trailing "/" is optional for folders, may match file though.
@@ -20,6 +21,7 @@ bin/*
 !bin/composer/
 !bin/cmder/
 bin/cmder/config/clink_history*
+!bin/nginx/
 !bin/nodejs/
 bin/nodejs/node-v14/*
 !bin/nodejs/node-v14/node_modules
