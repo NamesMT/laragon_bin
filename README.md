@@ -1,3 +1,12 @@
+Note to self, install without bugs:  
+Install Laragon at D:\Laragon  
+clone it, rename laragon_bin to Laragon, move to and overwrite D:\Laragon  
+add env "COMPOSER_HOME" > "D:\Laragon\bin\composer"  
+remove & add laragon to path from laragon menu  
+opens terminal and run git clean -fd  
+
+
+
 !Sorry for being word-lengthy, costed me a whole damn afternoon & got me real frustrated, you can just skip those with ">>>"
 Laragon (v4) settings & updated bin repo, mostly for personal, but feels free to use it tho.
 updated (as of 13/03/2021 [d/m/y]):
