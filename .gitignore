@@ -11,7 +11,9 @@
 **.log
 **tmp/
 **temp/
-**cache
+**/cache/
+!**www**/cache/
+!**phpMyAdmin**/cache/
 
 # trailing "/" is optional for folders, may match file though.
 # "/" is NOT optional when followed by a *
