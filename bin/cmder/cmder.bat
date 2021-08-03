@@ -10,6 +10,6 @@ title %TER_TITLE% - %FULL_TITLE%
 :: Remove trailing '\'
 @if "%CMDER_ROOT:~-1%" == "\" SET CMDER_ROOT=%CMDER_ROOT:~0,-1%
 
-cd /d "%1"
+@if NOT "%1"=="" cd /d "%1"
 
 cmd /k %CMDER_ROOT%\vendor\init.bat "%2" 

@@ -18,33 +18,19 @@
 # trailing "/" is optional for folders, may match file though.
 # "/" is NOT optional when followed by a *
 !usr/
+
 !bin/
 bin/*
-!bin/composer/
 !bin/cmder/
 bin/cmder/config/clink_history*
-!bin/nginx/
-!bin/nodejs/
-bin/nodejs/node-v14/*
-!bin/nodejs/node-v14/node_modules
-# Nodejs root
-!bin/nodejs/node-v14/CHANGELOG.md
-!bin/nodejs/node-v14/install_tools.bat
-!bin/nodejs/node-v14/LICENSE
-!bin/nodejs/node-v14/node*
-bin/nodejs/node-v14/nodemon*
-!bin/nodejs/node-v14/npm*
-!bin/nodejs/node-v14/npx*
-!bin/nodejs/node-v14/README.md
-
-
-bin/nodejs/node-v14/node_modules/*
-!bin/nodejs/node-v14/node_modules/npm
-!bin/php/
 !bin/ter.lnk
 !bin/notepad++
+
 !etc
 etc/apps/phpMyAdmin
+etc/apps/phpRedisAdmin
+etc/ssl
+
 !www/
 www/*
 !www/index.php

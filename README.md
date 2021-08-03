@@ -4,6 +4,7 @@ Run laragon as administrator and launch terminal for first init batch
 
 clone repo, rename laragon_bin to laragon, move to and overwrite D:\laragon  
 add env "COMPOSER_HOME" > "D:\laragon\bin\composer"  
+add path: D:\laragon\bin\composer\vendor\bin
 remove & add laragon to path from laragon menu  
 opens terminal and run git clean -fd  
 
