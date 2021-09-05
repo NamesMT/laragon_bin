@@ -2,29 +2,29 @@
 <NotepadPlus>
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" isSearch2ButtonsMode="no" regexBackward4PowerUser="no" fifProjectPanel1="no" fifProjectPanel2="no" fifProjectPanel3="no">
         <Filter name="" />
+        <Find name="root" />
+        <Find name="collect_behavior_enable" />
+        <Find name="qq" />
+        <Find name="service_qq=" />
+        <Find name="uid" />
+        <Find name="user" />
+        <Find name="xdebug" />
+        <Find name="timeout" />
+        <Find name="bind" />
         <Find name="extension" />
-        <Find name="ex" />
-        <Find name="Overclocking Lock" />
-        <Find name="0xEB" />
-        <Find name="0xDF" />
-        <Find name="CpuSetup" />
-        <Find name="database" />
-        <Find name="time" />
-        <Find name="father" />
-        <Find name="max" />
         <Replace name="" />
     </FindHistory>
     <History nbMaxFile="10" inSubMenu="no" customLength="-1">
-        <File filename="E:\ntleas046_x64\x86\crashinfo_ntleai_Game.exe_2021-07-31_17-38-15.dmp" />
-        <File filename="D:\Games\PTWT2\&#x7D9A;&#x831C;&#x753A;&#x7269;&#x602A;&#x9332;\&#x25C6;&#x25C6; Read Me &#x304A;&#x8AAD;&#x307F;&#x304F;&#x3060;&#x3055;&#x3044; &#x25C6;&#x25C6;.txt" />
-        <File filename="C:\Users\Administrator\Desktop\Section_PE32_image_DriverSampleDxe_SetupUtility IFR.txt" />
-        <File filename="C:\Users\Administrator\Desktop\hrms_filtered_tables.sql" />
-        <File filename="C:\Users\Administrator\Desktop\hrms_structure.sql" />
-        <File filename="D:\laragon\www\policies\wpcf7_uploads\.keep" />
+        <File filename="D:\shared\package.json" />
+        <File filename="C:\Users\Administrator\Desktop\cert.pem" />
+        <File filename="D:\laragon\data\mariadb-10.5\mysqld.log" />
+        <File filename="E:\Compact 11 Pro (22000.160) [TeamOS].torrent" />
+        <File filename="D:\laragon\data\mariadb-10.6\mysqld.log" />
+        <File filename="D:\laragon\www\portal\resources\js\helpers\utils.js" />
+        <File filename="C:\Users\Administrator\Desktop\update.php" />
+        <File filename="D:\laragon\etc\nginx\sites-enabled\auto.policies.test.conf" />
+        <File filename="C:\Users\TramNguyen\AppData\Local\Nox\conf.ini" />
         <File filename="C:\Windows\System32\drivers\etc\hosts" />
-        <File filename="D:\learn\docker-boilerplate\.editorconfig" />
-        <File filename="D:\learn\docker-boilerplate\.dockerignore" />
-        <File filename="D:\learn\docker-boilerplate\docker-compose.development-reverse-proxy.yml" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
@@ -32,16 +32,16 @@
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
     <GUIConfigs>
-        <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
+        <GUIConfig name="ToolBar" visible="yes">small</GUIConfig>
         <GUIConfig name="StatusBar">show</GUIConfig>
         <GUIConfig name="TabBar" dragAndDrop="yes" drawTopBar="yes" drawInactiveTab="yes" reduce="yes" closeButton="yes" doubleClick2Close="no" vertical="no" multiLine="no" hide="no" quitOnEmpty="no" iconSetNumber="0" />
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
-        <GUIConfig name="AppPosition" x="628" y="86" width="1100" height="700" isMaximized="no" />
+        <GUIConfig name="AppPosition" x="771" y="220" width="1100" height="700" isMaximized="no" />
         <GUIConfig name="FindWindowPosition" left="772" top="30" right="1459" bottom="477" />
-        <GUIConfig name="FinderConfig" wrappedLines="no" />
-        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20210804">no</GUIConfig>
+        <GUIConfig name="FinderConfig" wrappedLines="no" purgeBeforeEverySearch="no" />
+        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20210903">no</GUIConfig>
         <GUIConfig name="Auto-detection">yes</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
         <GUIConfig name="TrayIcon">no</GUIConfig>
@@ -49,6 +49,7 @@
         <GUIConfig name="TagsMatchHighLight" TagAttrHighLight="yes" HighLightNonHtmlZone="no">yes</GUIConfig>
         <GUIConfig name="RememberLastSession">yes</GUIConfig>
         <GUIConfig name="DetectEncoding">yes</GUIConfig>
+        <GUIConfig name="SaveAllConfirm">yes</GUIConfig>
         <GUIConfig name="NewDocDefaultSettings" format="0" encoding="4" lang="0" codepage="-1" openAnsiAsUTF8="yes" />
         <GUIConfig name="langsExcluded" gr0="0" gr1="0" gr2="0" gr3="0" gr4="0" gr5="0" gr6="0" gr7="0" gr8="0" gr9="0" gr10="0" gr11="0" gr12="0" langMenuCompact="yes" />
         <GUIConfig name="Print" lineNumber="yes" printOption="3" headerLeft="" headerMiddle="" headerRight="" footerLeft="" footerMiddle="" footerRight="" headerFontName="" headerFontStyle="0" headerFontSize="0" footerFontName="" footerFontStyle="0" footerFontSize="0" margeLeft="0" margeRight="0" margeTop="0" margeBottom="0" />
@@ -67,15 +68,17 @@
         <GUIConfig name="ScintillaGlobalSettings" enableMultiSelection="yes" />
         <GUIConfig name="openSaveDir" value="0" defaultDirPath="" />
         <GUIConfig name="titleBar" short="no" />
-        <GUIConfig name="stylerTheme" path="D:\laragon\bin\notepad++\stylers.xml" />
+        <GUIConfig name="stylerTheme" path="D:\laragon\bin\notepad++\themes\DarkModeDefault.xml" />
         <GUIConfig name="wordCharList" useDefault="yes" charsAdded="" />
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="multiInst" setting="0" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" writeTechnologyEngine="0" isFolderDroppedOpenFiles="no" docPeekOnTab="no" docPeekOnMap="no" saveDlgExtFilterToAllTypes="no" muteSounds="no" />
-        <GUIConfig name="Searching" monospacedFontFindDlg="no" stopFillingFindField="no" findDlgAlwaysVisible="no" confirmReplaceInAllOpenDocs="yes" />
+        <GUIConfig name="Searching" monospacedFontFindDlg="no" stopFillingFindField="no" findDlgAlwaysVisible="no" confirmReplaceInAllOpenDocs="yes" replaceStopsWithoutFindingNext="no" />
         <GUIConfig name="searchEngine" searchEngineChoice="2" searchEngineCustom="" />
+        <GUIConfig name="MarkAll" matchCase="no" wholeWordOnly="yes" />
         <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="no">yes</GUIConfig>
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" lineNumberDynamicWidth="yes" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" rightClickKeepsSelection="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" isEdgeBgMode="no" edgeMultiColumnPos="" zoom="-2" zoom2="0" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
+        <GUIConfig name="DarkMode" enable="yes" colorTone="3" customColorTop="2105376" customColorMenuHotTrack="4210752" customColorActive="4210752" customColorMain="2105376" customColorError="176" customColorText="14737632" customColorDarkText="12632256" customColorDisabledText="8421504" customColorEdge="6579300" />
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" lineNumberDynamicWidth="yes" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" rightClickKeepsSelection="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" isEdgeBgMode="no" edgeMultiColumnPos="" zoom="-2" zoom2="0" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" paddingLeft="0" paddingRight="0" distractionFreeDivPart="4" />
         <GUIConfig name="DockingManager" leftWidth="200" rightWidth="200" topHeight="200" bottomHeight="200">
             <ActiveTabs cont="0" activeTab="-1" />
             <ActiveTabs cont="1" activeTab="-1" />
