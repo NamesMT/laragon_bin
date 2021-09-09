@@ -24,6 +24,7 @@ bin/*
 !bin/cmder/
 bin/cmder/config/clink_history*
 !bin/ter.lnk
+!bin/terraform.exe
 !bin/notepad++
 
 !etc
